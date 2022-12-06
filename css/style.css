@@ -1,0 +1,408 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+ul{
+    padding: 0px!important;
+}
+
+/* Topo do Site */
+
+.menu_Principal{
+    width: 100%;
+    background-color: #393a79;
+    height: 60px;
+}   
+
+/* Posição Main e Content (Geralmente usado 980px) */
+
+main, .content{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+/* Posição da Logo */
+
+.logo{
+    float: left;
+    padding: 3px;
+    width: 70%;
+}
+
+/* Links do Topo do site  */
+
+.redes ul li{
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+
+.redes{
+    width: 25%;
+    float: right;
+}
+
+.redes img:hover {
+    border: 1px solid transparent;
+    zoom: 105%;
+}
+
+/* Barra branca Abaixo do Topo */
+
+.header-2{
+    background-color: white;
+    width: 980px;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+/* Cor da listra Abaixo */
+
+.menu-urls{
+    height: 80px;
+    border-bottom: 3px solid #efefef;
+}
+
+/* Determinando a Distancia entre Links */
+
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 15px;
+    height: 48px;
+}
+
+.menu ul li:hover{
+    border-bottom: 3px groove #5a5aff;
+
+}
+
+/* Cor do Link SELECIONADO */
+
+.menu ul li a:hover{
+    color: #5a5aff;
+
+}
+
+/* Cor dos Links (HOME; PRODUTOS; CONTATO.)*/
+
+.menu ul li a{
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.menu{
+    width: 70%;
+    float: left;
+}
+
+/* Barra de Pesquisa: */
+
+.busca{
+    text-align: center;
+    margin-top: 10px;
+    width: 30%;
+    float: right;
+}
+
+/* Imagem da Barra de Pesquisa */
+
+.busca input{
+    background-image: url("../_imagens/procurarIcone.png");
+    background-repeat: no-repeat;
+    background-position: 96%;
+    height: 20px;
+    width: 190px;
+    margin-top: 10px;
+    border: 1px solid #d6d6d6;
+}
+
+.coluna-100{
+    width: 100%;
+    float: left;
+    position: relative;
+    
+}
+
+.coluna-100-QuemSomos{
+    width: 100%;
+    float: left;
+    position: relative;
+    background: linear-gradient(#ffffff, #aabcff);
+
+}
+
+/* Botão anterior da imagem dos jogos (E CONTEUDO DO SITE) */
+
+button.slick-prev{
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../_imagens/setaEsquerda.png');
+    top: 40%;
+    left: 14%;
+}
+
+/* Botão proximo da imagem dos jogos */
+
+button.slick-next{
+    font-size: 0px;
+    border: none;
+    width: 50px;
+    height: 50px;
+    z-index: 9;
+    background-color: transparent;
+    position: absolute;
+    background-image: url('../_imagens/setaDireita.png');
+    top: 40%;
+    right: 14%;
+}
+
+.slick-list{
+    width: 100%!important;
+}
+
+.slick-initialized{
+    overflow: hidden;
+}
+
+/* Tamanho, formato e cor Dos Circulos no Slider */
+
+.slick-dots li button{
+    font-size: 0px;
+    border: 2px solid white;
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    border-radius: 50%;
+    cursor: pointer;
+
+}
+
+/* Posição dos Circulos no Slider */
+
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left: 48%;
+    top: 580px;
+}
+
+/* Cor ativa dos botões */
+
+li.slick-active button{
+    background: blue;
+}
+
+.slick-dots li{
+    padding-left: 10px;
+    display: inline-block;
+}
+
+/* Quem Somos */
+.texto-destaque {
+    text-align: center;
+}
+
+/* h1 Do Quem Somos */
+
+.texto-destaque h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000000;
+}
+
+.texto-destaque h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #000000;
+    padding-top: 25ch;
+}
+
+.texto-destaque p {
+    font-size: 15px;
+    text-align: center;
+    color: #000000;
+}
+
+/*Coluna dos Jogos*/
+
+.col-3 {
+    text-align: center;
+    padding-left: 33px;
+    padding-right: 34px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.col-3-QuemSomos {
+    text-align: center;
+    padding-left: 21px;
+    padding-right: 21px; 
+    width: 29%;
+    float: left;
+    position: relative;
+}
+
+.bloco-imagem img {
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+}
+
+.bloco-imagem img:hover{
+    border: 3px solid transparent;
+    zoom: 100%;
+}
+
+/* Alinhamento Geral do Site */
+
+.bloco-imagem {
+    width: 200px;
+    height: 200px;
+    padding-top: 80px;
+    padding-bottom: 15px;
+    margin-left: 50px;
+}
+
+/* Alinhamento E Limite Dos textos */
+
+.bloco-texto {
+    margin-top: 4.5em;
+
+}
+
+.bloco-texto p{
+    text-align: center;
+
+}
+
+h2, h4 {
+    font-weight: normal!important;
+}
+
+.bloco-imagens-texto {
+    background: linear-gradient(#ffffff, #aaaac5);
+    
+}
+
+.bloco-imagens-texto:before {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 52px;
+    background: #3d3f49;
+}
+
+.bloco-imagens-texto:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 210px;
+} 
+
+.bloco-imagens-texto-QuemSomos:after {
+    width: 100%;
+    display: inline-block;
+    content: '';
+    height: 80px;
+} 
+
+/* Rodapé */
+
+/* Imagem do Footer mais abaixo */
+
+.footer-2 {
+    background-image: url('../imagens/footer.png');
+    color: #ffffff;
+    height: 90px;
+}
+
+/* P Do Footer */
+
+.footer p, a{
+    width: 90%;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    color: #ad9e9e;
+    float: initial;
+    
+}
+
+/* P Do footer mais abaixo */
+
+.footer-2 p {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Justificando os Paragrafos */
+
+p{
+    text-align: justify;
+    font-family: 'Lucida Sans Regular';
+}
+
+#espaco {
+    margin-top: 870px;
+
+}
+
+footer{
+    width: 100%;
+    height: 30vh;
+    background: #282828;
+    display: flex;
+    align-items: center;
+    
+}
+.footer-body{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.footer-logo{
+    width: 400px;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: polygon(0 0, 100% 0, 64% 100%, 0% 100%);
+    padding: 10px;
+    line-height: 1.3rem;
+    height: 270px;
+    color: #000;
+    line-height: 1.7rem;
+}
+footer ul h3{
+    color: #fff;
+    font-weight: 450;
+}
+footer ul li{
+    list-style: none;
+    line-height: 3.5rem;
+}
+footer ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+footer ul li a:hover{
+    color: #437bff;
+}
+
